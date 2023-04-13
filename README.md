@@ -1,4 +1,4 @@
-# OOP-school-library
+# school-library
 
 # 📗 Table of Contents
 
@@ -17,7 +17,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [OOP-school-library] <a name="about-project"></a>
+# 📖 [school-library] <a name="about-project"></a>
 
 A library system that provides serveices for students and teachers
 
@@ -53,7 +53,7 @@ A basic understanding of Ruby and Git
 ### Usage
 
 1. Install Ruby
-2. Clone this repo
+2. Clone this repo `https://github.com/mohisa302/school-library.git`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
