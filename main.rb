@@ -1,5 +1,3 @@
-#!/usr/bin/env ruby to the first line of file
-
 require_relative './app'
 require_relative './library'
 
