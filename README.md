@@ -53,7 +53,21 @@ A basic understanding of Ruby and Git
 ### Usage
 
 1. Install Ruby
-2. Clone this repo `https://github.com/mohisa302/school-library.git`
+2. Clone this repo
+
+```sh
+  cd my-folder
+  git clone https://github.com/anthonymr/react-todo-app.git
+```
+
+3. Add the `#!/usr/bin/env ruby` to the first line of `main.rb` file.
+4. Open your terminal in the project root.
+5. Run
+   <pre><code>chmod 755 main.rb</pre></code>
+   <pre><code>mv main.rb main</pre></code>
+   <pre><code>mkdir -p /usr/local/bin/</pre></code>
+   <pre><code>sudo ln -s $PWD/main /usr/local/bin/</pre></code>
+6. Run **main** in the terminal and enjoy the app!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -69,7 +83,8 @@ A basic understanding of Ruby and Git
 
 # 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **add more methods**
+- [ ] **catch errors**
+- [ ] **improve UI**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
