@@ -60,8 +60,7 @@ A basic understanding of Ruby and Git
   git clone https://github.com/anthonymr/react-todo-app.git
 ```
 
-3. Add the below line to the first line of `main.rb` file.
-<pre><code>#!/usr/bin/env ruby</pre></code>
+3. Add the `#!/usr/bin/env ruby` to the first line of `main.rb` file.
 4. Open your terminal in the project root.
 5. Run
    <pre><code>chmod 755 main.rb</pre></code>
