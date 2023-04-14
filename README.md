@@ -60,12 +60,14 @@ A basic understanding of Ruby and Git
   git clone https://github.com/anthonymr/react-todo-app.git
 ```
 
-3. Add `#!/usr/bin/env ruby` to the first line of file in the first line of `main.rb` file
-4. Open your termian in project root
-5. Run `chmod 755 main.rb`
-6. Run `mv main.rb main` in the terminal
-7. Run `mkdir -p /usr/local/bin/`
-8. Run `sudo ln -s $PWD/main /usr/local/bin/`
+3. Add the below line to the first line of `main.rb` file.
+<pre><code>#!/usr/bin/env ruby</pre></code>
+4. Open your terminal in the project root.
+5. Run
+<pre><code>chmod 755 main.rb</pre></code>
+<pre><code>mv main.rb main</pre></code>
+<pre><code>mkdir -p /usr/local/bin/</pre></code>
+<pre><code>sudo ln -s $PWD/main /usr/local/bin/</pre></code>
 9. Run **main** in the terminal and enjoy the app!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
