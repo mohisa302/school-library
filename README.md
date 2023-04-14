@@ -64,11 +64,11 @@ A basic understanding of Ruby and Git
 <pre><code>#!/usr/bin/env ruby</pre></code>
 4. Open your terminal in the project root.
 5. Run
-<pre><code>chmod 755 main.rb</pre></code>
-<pre><code>mv main.rb main</pre></code>
-<pre><code>mkdir -p /usr/local/bin/</pre></code>
-<pre><code>sudo ln -s $PWD/main /usr/local/bin/</pre></code>
-9. Run **main** in the terminal and enjoy the app!
+   <pre><code>chmod 755 main.rb</pre></code>
+   <pre><code>mv main.rb main</pre></code>
+   <pre><code>mkdir -p /usr/local/bin/</pre></code>
+   <pre><code>sudo ln -s $PWD/main /usr/local/bin/</pre></code>
+6. Run **main** in the terminal and enjoy the app!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -84,7 +84,8 @@ A basic understanding of Ruby and Git
 
 # 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **add more methods**
+- [ ] **catch errors**
+- [ ] **improve UI**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
