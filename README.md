@@ -19,7 +19,7 @@
 
 # 📖 [school-library] <a name="about-project"></a>
 
-A library system that provides serveices for students and teachers
+A library system that provides book renting  services  for students and teachers
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -79,12 +79,20 @@ A basic understanding of Ruby and Git
 - Twitter: [@Kholochelam](https://twitter.com/Kholochelam)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/mohadese-sadeghi-692551199/)
 
+👤 **Zewdu erkyhun**
+
+- GitHub: [zewdu444](https://github.com/zewdu444)
+- Twitter: [@zewdu444](https://twitter.com/zewdu444)
+- LinkedIn: [zewdu-anley](https://www.linkedin.com/in/zewdu-anley/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **catch errors**
-- [ ] **improve UI**
+- [ ] **Catch errors**
+- [ ] **Improve UI**
+- [ ] **Add preservation data in a file**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

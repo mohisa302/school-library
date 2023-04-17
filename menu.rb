@@ -17,7 +17,7 @@ class Menu
     loop do
       print_menu_options
 
-      choice = get_menu_choice
+      choice = menu_choice
 
       if MENU_OPTIONS.include?(choice) # If the key is present
         method_name = MENU_OPTIONS[choice] # get value
@@ -39,7 +39,7 @@ class Menu
     end
   end
 
-  def get_menu_choice
+  def menu_choice
     gets.chomp.downcase
   end
 end
