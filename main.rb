@@ -13,4 +13,3 @@ puts 'Hello here! welcome to School Library App!'
 puts ''
 
 main
-
