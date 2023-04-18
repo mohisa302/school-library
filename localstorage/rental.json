@@ -1,26 +1,12 @@
 [
   {
-    "date": "2022-02-02",
-    "title": "efe",
-    "author": "ss",
+    "date": "2022-05-05",
     "name": "wed",
     "age": 12,
-    "id": 961,
+    "id": 590,
     "book": {
       "title": "efe",
       "author": "ss"
-    }
-  },
-  {
-    "date": "2022-11-01",
-    "title": "fec",
-    "author": "dsa",
-    "name": "rf",
-    "age": 45,
-    "id": 883,
-    "book": {
-      "title": "fec",
-      "author": "dsa"
     }
   }
 ]

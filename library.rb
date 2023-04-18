@@ -11,32 +11,30 @@ class Library
 
   def add_person(person)
     @people.push(person)
-    json_person={}
-    if(person.class.to_s == 'Student')
-      json_person = {
-                  type: person.class.to_s,
-                  name: person.name,
-                  age: person.age,
-                  id: person.id,
-                  parent_permission:person.parent_permission,
-                  classroom: person.classroom
-                }
-    else
-      json_person = {
-                  type: person.class.to_s,
-                  name: person.name,
-                  age: person.age,
-                  id: person.id,
-                  specialization: person.specialization
-                }
+    json_person = if person.instance_of?(::Student)
+                    {
+                      type: person.class.to_s,
+                      name: person.name,
+                      age: person.age,
+                      id: person.id,
+                      parent_permission: person.parent_permission,
+                      classroom: person.classroom
+                    }
+                  else
+                    {
+                      type: person.class.to_s, name: person.name,
+                      age: person.age,
+                      id: person.id,
+                      specialization: person.specialization
+                    }
 
-    end
-     json_write('localstorage/person.json', json_person)
+                  end
+    json_write('localstorage/person.json', json_person)
   end
 
   def add_book(book)
     @books.push(book)
-    json_book = {title: book.title, author: book.author}
+    json_book = { title: book.title, author: book.author }
     json_write('localstorage/book.json', json_book)
   end
 
@@ -44,16 +42,10 @@ class Library
     @rentals.push(rental)
     json_rental = {
       date: rental.date,
-      title: rental.book.title, author: rental.book.author,
       name: rental.person.name, age: rental.person.age, id: rental.person.id,
       book: {
         title: rental.book.title,
         author: rental.book.author
-      }, 
-      person: {
-          name: rental.person.name, 
-          age: rental.person.age, 
-          id: rental.person.id
       }
     }
 
