@@ -62,10 +62,9 @@ module JsonReadWrite
     rentals = []
     begin
       temp = File.read(file_name)
-      puts "Raw JSON data: #{temp}"
       temp = JSON.parse(temp)
       temp.each do |rental|
-        book = Book.new(rental['title'], rental['author'])
+        book = Book.new(rental['book']['title'], rental['book']['author'])
         person = TempRental.new(rental['name'], rental['age'], rental['id'])
         date = rental['date']
         rentals << Rental.new(book, person, date)
