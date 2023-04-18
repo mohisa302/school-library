@@ -128,8 +128,6 @@ class App
     @library.rentals.each do |rental|
       if rental.person.id == id
         puts "Date: #{rental.date}, Book #{rental.book.title} by #{rental.book.author}"
-      else
-        puts 'This user does not currently have any rentals.'
       end
     end
   end
