@@ -14,7 +14,6 @@ class Menu
   end
 
   def show
-    @app.send(:load_data)
     loop do
       print_menu_options
 

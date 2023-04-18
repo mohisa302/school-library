@@ -1,73 +1,33 @@
 [
   {
-    "Student": {
-      "name": "zd",
-      "age": 40,
-      "id": 746,
-      "parent_permission": true,
-      "classroom": "Unknown"
-    }
+    "type": "Student",
+    "name": "ws",
+    "age": 12,
+    "id": 194,
+    "parent_permission": true,
+    "classroom": "Unknown"
   },
   {
-    "Teacher": {
-      "name": "erky",
-      "age": 30,
-      "id": 716,
-      "specialization": "biology"
-    }
+    "type": "Student",
+    "name": "wed",
+    "age": 12,
+    "id": 972,
+    "parent_permission": true,
+    "classroom": "Unknown"
   },
   {
-    "Student": {
-      "name": "zewdu",
-      "age": 40,
-      "id": 842,
-      "parent_permission": false,
-      "classroom": "Unknown"
-    }
+    "type": "Student",
+    "name": "rf",
+    "age": 45,
+    "id": 238,
+    "parent_permission": true,
+    "classroom": "Unknown"
   },
   {
-    "Student": {
-      "name": "min",
-      "age": 40,
-      "id": 322,
-      "parent_permission": false,
-      "classroom": "Unknown"
-    }
-  },
-  {
-    "Student": {
-      "name": "challa",
-      "age": 21,
-      "id": 445,
-      "parent_permission": false,
-      "classroom": "Unknown"
-    }
-  },
-  {
-    "Student": {
-      "name": "wd",
-      "age": 12,
-      "id": 298,
-      "parent_permission": true,
-      "classroom": "Unknown"
-    }
-  },
-  {
-    "Student": {
-      "name": "ede",
-      "age": 12,
-      "id": 540,
-      "parent_permission": true,
-      "classroom": "Unknown"
-    }
-  },
-  {
-    "Student": {
-      "name": "wwas",
-      "age": 12,
-      "id": 247,
-      "parent_permission": true,
-      "classroom": "Unknown"
-    }
+    "type": "Teacher",
+    "name": "fg",
+    "age": 45,
+    "id": 812,
+    "specialization": "ddc"
   }
 ]

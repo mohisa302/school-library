@@ -18,6 +18,7 @@ class App
 
   def list_people
     @library.people.each do |person|
+      # p person
       if person.is_a?(Student)
         puts "[Student] Name: #{person.name}, ID: #{person.id}, Age: #{person.age}"
       else
@@ -125,10 +126,9 @@ class App
     id = gets.chomp.to_i
     puts 'Rentals: '
     @library.rentals.each do |rental|
+      p rental
       if rental.person.id == id
         puts "Date: #{rental.date}, Book #{rental.book.title} by #{rental.book.author}"
-      else
-        puts 'This user does not currently have any rentals.'
       end
     end
   end
