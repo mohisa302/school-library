@@ -4,9 +4,8 @@ require './teacher'
 require './person'
 require 'date'
 require './rental'
-require './module/json_read_write'
+
 class App
-  include JsonReadWrite
   def initialize(library)
     @library = library
   end

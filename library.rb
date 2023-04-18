@@ -11,7 +11,6 @@ class Library
 
   def add_person(person)
     @people.push(person)
-    p person
     json_person={}
     if(person.class.to_s == 'Student')
       json_person = {person.class.to_s => {name: person.name,
