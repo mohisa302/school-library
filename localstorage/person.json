@@ -1,0 +1,46 @@
+[
+  {
+    "Student": {
+      "name": "zd",
+      "age": 40,
+      "id": 746,
+      "parent_permission": true,
+      "classroom": "Unknown"
+    }
+  },
+  {
+    "Teacher": {
+      "name": "erky",
+      "age": 30,
+      "id": 716,
+      "specialization": "biology"
+    }
+  },
+  {
+    "Student": {
+      "name": "zewdu",
+      "age": 40,
+      "id": 842,
+      "parent_permission": false,
+      "classroom": "Unknown"
+    }
+  },
+  {
+    "Student": {
+      "name": "min",
+      "age": 40,
+      "id": 322,
+      "parent_permission": false,
+      "classroom": "Unknown"
+    }
+  },
+  {
+    "Student": {
+      "name": "challa",
+      "age": 21,
+      "id": 445,
+      "parent_permission": false,
+      "classroom": "Unknown"
+    }
+  }
+]
