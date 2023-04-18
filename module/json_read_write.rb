@@ -48,14 +48,16 @@ module JsonReadWrite
     people = []
     temp = JSON.parse(File.read(file_name))
     temp.each do |person|
-      if person['type'] == 'Student'
-        people << Student.new(person['classroom'], person['age'], person['name'], parent_permission: person['parent_permission'])
-      else
-        people << Teacher.new(person['specialization'], person['age'], person['name'])
-      end
+      people << if person['type'] == 'Student'
+                  Student.new(person['classroom'], person['age'], person['name'],
+                              parent_permission: person['parent_permission'])
+                else
+                  Teacher.new(person['specialization'], person['age'], person['name'])
+                end
     end
     people
   end
+
   def read_rentals(file_name)
     rentals = []
     begin
