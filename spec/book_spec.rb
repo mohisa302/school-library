@@ -18,7 +18,7 @@ describe Book do
     expect(@book.rentals.length).to eq(1)
   end
 
-  it "Rentals array should return an instance of rental class" do
+  it 'Rentals array should return an instance of rental class' do
     person = Student.new('4A', 17, 'John', parent_permission: true)
     @book.add_rental(person, '2022-10-2')
     expect(@book.rentals.first).to be_an_instance_of(Rental)

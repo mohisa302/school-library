@@ -13,5 +13,4 @@ describe Classroom do
   it 'takes three parameters and returns a Rental object' do
     expect(@rental).to be_an_instance_of(Rental)
   end
-
 end
