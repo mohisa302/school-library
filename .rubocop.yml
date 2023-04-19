@@ -53,3 +53,5 @@ Style/HashTransformKeys:
   Enabled: false
 Style/HashTransformValues:
   Enabled: false
+Style/OptionalBooleanParameter:
+  Enabled: false

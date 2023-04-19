@@ -29,5 +29,12 @@
     "age": 45,
     "id": 812,
     "specialization": "ddc"
+  },
+  {
+    "type": "Teacher",
+    "name": "john",
+    "age": 12,
+    "id": 888,
+    "specialization": "fly"
   }
 ]
