@@ -21,7 +21,7 @@ class Person < Nameable
     Rental.new(date, book, self)
   end
 
-  private
+
 
   def of_age?
     @age >= 18
@@ -30,4 +30,5 @@ class Person < Nameable
   def can_use_services?
     of_age? || @parent_permission
   end
+  private :of_age?
 end
