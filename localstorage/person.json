@@ -1,0 +1,33 @@
+[
+  {
+    "type": "Student",
+    "name": "ws",
+    "age": 12,
+    "id": 194,
+    "parent_permission": true,
+    "classroom": "Unknown"
+  },
+  {
+    "type": "Student",
+    "name": "wed",
+    "age": 12,
+    "id": 972,
+    "parent_permission": true,
+    "classroom": "Unknown"
+  },
+  {
+    "type": "Student",
+    "name": "rf",
+    "age": 45,
+    "id": 238,
+    "parent_permission": true,
+    "classroom": "Unknown"
+  },
+  {
+    "type": "Teacher",
+    "name": "fg",
+    "age": 45,
+    "id": 812,
+    "specialization": "ddc"
+  }
+]
